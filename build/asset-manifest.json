@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69853b80.css",
+    "main.js": "/static/js/main.b4a4b507.js",
+    "static/media/Artikel 2.png": "/static/media/Artikel 2.b1c922230df7b8cbd553.png",
+    "static/media/logo.png": "/static/media/logo.ca2269c4e5e0cff442c1.png",
+    "static/media/login2.png": "/static/media/login2.91636201dfa7831d7b7e.png",
+    "static/media/kartun2.png": "/static/media/kartun2.bc9bbcd572a9c30fc32a.png",
+    "static/media/kartun.png": "/static/media/kartun.8dbd64da55c35c32e722.png",
+    "static/media/mita.png": "/static/media/mita.bee9f4c1b73715e58802.png",
+    "static/media/adriyan.png": "/static/media/adriyan.521ecd38bc70b039db3f.png",
+    "static/media/adi.png": "/static/media/adi.b897f6d3ff5387d71e99.png",
+    "static/media/lala.png": "/static/media/lala.005299080495b674c165.png",
+    "index.html": "/index.html",
+    "main.69853b80.css.map": "/static/css/main.69853b80.css.map",
+    "main.b4a4b507.js.map": "/static/js/main.b4a4b507.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69853b80.css",
+    "static/js/main.b4a4b507.js"
+  ]
+}
