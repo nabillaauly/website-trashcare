@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+.bot {
+  padding: 50px;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+.chatbot-container {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  border: 1px solid #395144;
+  overflow-y: scroll;
+  padding: 10px;
+}
+.chatbot-messages {
+  height: 500px;
+  overflow-y: auto;
+  border-bottom: 1px solid white;
+  background-color: #395144;
+  color: white;
+}
+.message {
+  padding: 15px;
+  margin-bottom: 5px;
+  background-color: #517562;
+  font-size: Large;
+  display: flex;
+  align-items: center;
+}
+.message.user {
+  background-color: #395144;
+  text-align: left;
+  color: white;
+  justify-content: flex-end;
+}
+.message.bot .message-text {
+  justify-content: flex-start;
+  background-color: #517562;
+}
+.message.user .icon {
+  margin-left: 0; 
+  margin-right: 8px; 
+}
+.message-text {
+  flex: 1;
+  background-color: #395144;
+}
+.chatbot-input {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: #395144;
+}
+.chatbot-input input {
+  flex: 1;
+  padding: 5px;
+  background-color: #395144;
+}
+.btn-bot {
+  padding: 20px 40px;
+  border-radius: 0px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.user-icon {
+  background-image: url("../../img/user.png"); 
+  background-size: cover;
+  background-color: #395144;
+  border-radius: 80%;
+}
+
+.bot-icon {
+  background-image: url("../../img/logo.png");
+  background-size: cover;
+  border-radius: 80%; 
+}
+
+/* Tampilan responsif */
+@media only screen and (max-width: 1080px) {
+  .chatbot-container {
+    padding: 10px; /* Menyesuaikan padding agar konten tetap terlihat seimbang */
+  }
+
+  .chatbot-messages {
+    height: auto; /* Mengubah tinggi menjadi auto agar menyesuaikan konten */
+    max-height: none; /* Menghilangkan batas tinggi maksimum */
+  }
+
+  .message {
+    padding: 10px; /* Mengurangi padding pada pesan */
+    margin-bottom: 5px; /* Mengembalikan margin pada pesan */
+    font-size: 16px; /* Menyesuaikan ukuran font pesan pada layar kecil */
+  }
+
+  .message-text {
+    font-size: 16px; /* Menyesuaikan ukuran font pesan pada layar kecil */
+  }
+
+  .chatbot-input {
+    flex-direction: column; /* Mengubah flex-direction menjadi column agar input dan tombol berada di bawah pesan */
+    align-items: stretch; /* Memastikan agar input dan tombol memiliki lebar yang sama */
+    margin-top: 10px;
+  }
+
+  .chatbot-input input {
+    padding: 10px; /* Menyesuaikan padding pada input untuk kenyamanan */
+    margin-bottom: 10px; /* Menambahkan margin bottom agar terlihat lebih rapi */
+  }
+
+  .btn-bot {
+    padding: 15px 20px; /* Menyesuaikan padding pada tombol */
+    border-radius: 5px; /* Menyesuaikan border-radius pada tombol */
+  }
+}
+
